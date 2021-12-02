@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hi5">
         <activity
-            android:name=".MainActivity"
+            android:name=".base.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboard.DashboardActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

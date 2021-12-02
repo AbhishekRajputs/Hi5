@@ -1,11 +1,12 @@
-package com.example.hi5
+package com.example.hi5.base
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.hi5.R
 
-class MainActivity : AppCompatActivity() {
+abstract class BaseActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
     }
 }
