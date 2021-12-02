@@ -1,6 +1,5 @@
 package com.example.hi5.ui.dashboard
 
-
 import android.os.Bundle
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityMainBinding
