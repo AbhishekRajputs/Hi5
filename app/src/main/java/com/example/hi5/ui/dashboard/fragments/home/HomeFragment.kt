@@ -14,6 +14,9 @@ class HomeFragment : Fragment() {
     private val homeBannerAdapter by lazy {
         HomeBannerAdapter(arrayListOf("","","","",""))
     }
+    private val dealsAdapter by lazy {
+        DealsAdapter(arrayListOf("","","","",""))
+    }
 
     private val filterAdapter by lazy {
         FilterAdapter(arrayListOf("All","Recommended","LifeStyle","Gifts"),"All")
@@ -28,6 +31,7 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.rvBanner.adapter = homeBannerAdapter
         binding.rvFilter.adapter = filterAdapter
+        binding.rvDeals.adapter = dealsAdapter
     }
 
     companion object {
