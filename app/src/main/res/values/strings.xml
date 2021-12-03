@@ -7,4 +7,6 @@
     <string name="discover">Discover</string>
     <string name="rewards">Rewards</string>
     <string name="wallets">Wallets</string>
+    <string name="redeem_points">Redeem Points</string>
+    <string name="earn_points">Earn Points</string>
 </resources>

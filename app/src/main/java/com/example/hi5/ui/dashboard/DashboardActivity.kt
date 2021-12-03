@@ -7,6 +7,8 @@ import com.example.hi5.base.BasePagerAdapter
 import com.example.hi5.databinding.ActivityMainBinding
 import com.example.hi5.ui.dashboard.fragments.*
 import com.example.hi5.ui.dashboard.fragments.home.HomeFragment
+import com.example.hi5.ui.dashboard.fragments.offers.OffersFragment
+import com.example.hi5.ui.dashboard.fragments.rewards.RewardsFragment
 
 class DashboardActivity : BaseActivity() {
 
@@ -72,6 +74,7 @@ class DashboardActivity : BaseActivity() {
             addFragment(discoverFragment, getString(R.string.discover))
             addFragment(walletsFragment, getString(R.string.wallets))
         }
+        binding.viewPager.offscreenPageLimit = 2
         binding.viewPager.adapter = pagerAdapter
     }
 }
