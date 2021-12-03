@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.fragments.rewards.fragments.EarnFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutScan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_earn_points"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgIconScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_scan"
+            android:layout_marginStart="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan QR Code"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintStart_toEndOf="@+id/imgIconScan"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvScanPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ 50"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvScan"
+            app:layout_constraintStart_toEndOf="@+id/imgIconScan" />
+
+
+        <TextView
+            android:id="@+id/tvScanPoints2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutComments"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_earn_points"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutScan">
+
+        <ImageView
+            android:id="@+id/imgIconComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_comments"
+            android:layout_marginStart="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comments"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintStart_toEndOf="@+id/imgIconComments"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvScanComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ 50"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments"
+            app:layout_constraintStart_toEndOf="@+id/imgIconComments" />
+
+
+        <TextView
+            android:id="@+id/tvScanComments2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutShareAd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_earn_points"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutComments">
+
+        <ImageView
+            android:id="@+id/imgIconShareAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share_ad"
+            android:layout_marginStart="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvShareAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Ad's"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintStart_toEndOf="@+id/imgIconShareAd"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvScanShareAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ 50"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvShareAd"
+            app:layout_constraintStart_toEndOf="@+id/imgIconShareAd" />
+
+
+        <TextView
+            android:id="@+id/tvScanShareAd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutDiscoverDeals"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_earn_points"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutShareAd">
+
+        <ImageView
+            android:id="@+id/imgIconDiscoverDeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_discover_deals"
+            android:layout_marginStart="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDiscoverDeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discover Deals"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintStart_toEndOf="@+id/imgIconDiscoverDeals"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvScanDiscoverDeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ 50"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvDiscoverDeals"
+            app:layout_constraintStart_toEndOf="@+id/imgIconDiscoverDeals" />
+
+
+        <TextView
+            android:id="@+id/tvScanDiscoverDeals2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutReferFriend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_earn_points"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="16dp"
+        android:backgroundTint="#8233FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutDiscoverDeals">
+
+        <ImageView
+            android:id="@+id/imgReferFriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_invite"
+            android:layout_marginStart="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvRefer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refer a Friend"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintStart_toEndOf="@+id/imgReferFriends"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvReferDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Recommend your friends to earn points and let them enjoy amazing deals."
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRefer"
+            app:layout_constraintStart_toEndOf="@+id/imgReferFriends" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
