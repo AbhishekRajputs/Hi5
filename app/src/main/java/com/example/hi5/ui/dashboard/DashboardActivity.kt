@@ -9,6 +9,7 @@ import com.example.hi5.ui.dashboard.fragments.*
 import com.example.hi5.ui.dashboard.fragments.home.HomeFragment
 import com.example.hi5.ui.dashboard.fragments.offers.OffersFragment
 import com.example.hi5.ui.dashboard.fragments.rewards.RewardsFragment
+import com.example.hi5.ui.dashboard.fragments.wallets.WalletsFragment
 
 class DashboardActivity : BaseActivity() {
 

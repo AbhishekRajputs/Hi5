@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="@dimen/dimen_8dp"
     android:background="#F5F5F8"
-    tools:context=".ui.redeem_history.RedeemHistoryActivity">
+    tools:context=".ui.points_history.PointsActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/img_back"
@@ -18,7 +18,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvTitle"
-        android:text="Redeem History"
+        android:text="Points History"
         app:layout_constraintTop_toTopOf="@+id/img_back"
         app:layout_constraintBottom_toBottomOf="@id/img_back"
         android:textColor="@color/black"
@@ -31,7 +31,7 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvRedeem"
+        android:id="@+id/rvPoints"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
