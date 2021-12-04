@@ -33,72 +33,80 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/tvDeals"
+                android:id="@+id/tvRedeemTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
-                android:text="Name of the Deal"
-
+                android:text="Gift Card"
+                android:textStyle="bold"
                 android:textColor="@color/black"
+                android:layout_marginTop="@dimen/dimen_8dp"
                 android:textSize="18sp"
-                app:layout_constraintBottom_toTopOf="@+id/tvDealsDetails"
+                app:layout_constraintBottom_toTopOf="@+id/tvRedeemhistoryDetails"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/tvDealsDetails"
-                android:layout_width="wrap_content"
+                android:id="@+id/tvRedeemhistoryDetails"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="20% off + Free Shipping"
+                android:paddingStart="1dp"
+                android:paddingEnd="12dp"
+                android:text="Lorem ipsum dolor sit amet, elit, se do tempor."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginEnd="@dimen/dimen_8dp"
+                app:layout_constraintEnd_toStartOf="@+id/tvRedeemHistoryPoints"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/tvDate"
+                app:layout_constraintStart_toStartOf="@+id/tvRedeemTitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvRedeemTitle" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Nov 26, 2021, 10:30 AM"
+                android:textColor="#A0A3B1"
+                android:textSize="12sp"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tvRedeemTitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvRedeemhistoryDetails" />
+
+
+            <TextView
+                android:id="@+id/tvRedeemHistoryPoints"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="1dp"
+                android:paddingEnd="12dp"
+                android:textStyle="bold"
+                android:text="200 Pts"
                 android:textColor="#FF558E"
                 android:textSize="16sp"
-                android:paddingEnd="12dp"
+                app:layout_constraintTop_toTopOf="@+id/tvRedeemTitle"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tvSuccess"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:paddingStart="1dp"
-                app:layout_constraintBottom_toTopOf="@+id/tvfav"
-                app:layout_constraintStart_toStartOf="@+id/tvDeals"
-                app:layout_constraintTop_toBottomOf="@+id/tvDeals" />
-
-            <TextView
-                android:id="@+id/tvfav"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="256"
-                android:textColor="#A0A3B1"
+                android:paddingEnd="12dp"
+                android:text="Success"
+                android:textColor="#34A853"
                 android:textSize="12sp"
-                android:drawablePadding="4dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/tvComment"
-                app:layout_constraintStart_toStartOf="@+id/tvDeals"
-                app:layout_constraintTop_toBottomOf="@+id/tvDealsDetails"
-                app:drawableStartCompat="@drawable/fav_selector" />
+                app:layout_constraintTop_toBottomOf="@+id/tvRedeemHistoryPoints"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-            <TextView
-                android:id="@+id/tvComment"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="9"
-                android:textColor="#A0A3B1"
-                android:textSize="12sp"
-                android:drawablePadding="4dp"
-                app:layout_constraintBottom_toBottomOf="@+id/tvfav"
-                app:layout_constraintEnd_toStartOf="@+id/tvBrand"
-                app:layout_constraintStart_toEndOf="@+id/tvfav"
-                app:layout_constraintTop_toTopOf="@+id/tvfav"
-                app:drawableStartCompat="@drawable/ic_chat" />
 
-            <TextView
-                android:id="@+id/tvBrand"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Brand Name"
-                android:textColor="#A0A3B1"
-                android:textSize="12sp"
-                app:layout_constraintBottom_toBottomOf="@+id/tvfav"
-                app:layout_constraintEnd_toEndOf="@+id/tvDealsDetails"
-                app:layout_constraintStart_toEndOf="@+id/tvComment"
-                app:layout_constraintTop_toTopOf="@+id/tvfav" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
     </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
