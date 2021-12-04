@@ -33,67 +33,65 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/tvDeals"
+                android:id="@+id/tvPointsTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:text="Gift Card"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:layout_marginTop="@dimen/dimen_8dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
                 android:textSize="18sp"
-                app:layout_constraintBottom_toTopOf="@+id/tvDealsDetails"
+                app:layout_constraintBottom_toTopOf="@+id/tvPointsHistoryDetails"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/tvDealsDetails"
-                android:layout_width="wrap_content"
+                android:id="@+id/tvPointsHistoryDetails"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:paddingStart="1dp"
                 android:paddingEnd="12dp"
-                android:textStyle="bold"
-                android:text="200 Points"
-                android:textColor="#FF558E"
+                android:layout_marginTop="@dimen/dimen_6dp"
+                android:text="Comment which user posted Lorem ipsum dolor sit amet, elit, sed"
                 android:textSize="16sp"
-                app:layout_constraintBottom_toTopOf="@+id/tvfav"
-                app:layout_constraintStart_toStartOf="@+id/tvDeals"
-                app:layout_constraintTop_toBottomOf="@+id/tvDeals" />
+                android:layout_marginEnd="@dimen/dimen_10dp"
+                app:layout_constraintEnd_toStartOf="@+id/tvApproved"
+                app:layout_constraintStart_toStartOf="@+id/tvPointsTitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvPointsTitle" />
 
             <TextView
-                android:id="@+id/tvfav"
+                android:id="@+id/tvPoints"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Quantity : 10"
-                android:textColor="#A0A3B1"
-                android:textSize="12sp"
-                android:layout_marginBottom="@dimen/dimen_8dp"
-                app:layout_constraintEnd_toStartOf="@+id/tvRedeem"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/tvDeals"
-                app:layout_constraintTop_toBottomOf="@+id/tvDealsDetails" />
-
+                android:paddingStart="1dp"
+                android:paddingEnd="12dp"
+                android:text="40 Pts"
+                android:textStyle="bold"
+                android:padding="@dimen/dimen_6dp"
+                android:layout_marginEnd="@dimen/dimen_8dp"
+                android:textColor="#34A853"
+                android:textSize="14sp"
+                app:layout_constraintTop_toTopOf="@+id/tvPointsTitle"
+                app:layout_constraintEnd_toEndOf="parent" />
 
             <TextView
-                android:id="@+id/tvRedeem"
-                android:layout_width="120dp"
+                android:id="@+id/tvApproved"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_tab_selector"
-                android:text="Redeem"
+                android:paddingStart="1dp"
+                android:paddingEnd="12dp"
+                android:text="Approved"
                 android:textStyle="bold"
-                android:textSize="16sp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="10dp"
-                android:textAllCaps="true"
-                android:gravity="center"
-                android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:padding="@dimen/dimen_6dp"
+                android:layout_marginEnd="@dimen/dimen_8dp"
+                android:textColor="#34A853"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/tvPoints"
                 app:layout_constraintEnd_toEndOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-
     </androidx.cardview.widget.CardView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

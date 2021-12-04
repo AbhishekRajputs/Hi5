@@ -11,6 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hi5">
         <activity
+            android:name=".ui.points_history.PointsActivity"
+            android:screenOrientation="locked"/>
+        <activity
+            android:name=".ui.favourite.FavouriteActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ui.redeem_history.RedeemHistoryActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ui.redeem_points.RedeemPointsActivity"
+            android:screenOrientation="locked" />
+        <activity
             android:name=".base.BaseActivity"
             android:exported="false" />
         <activity
@@ -40,31 +52,6 @@
         <activity
             android:name=".ui.dashboard.DashboardActivity"
             android:screenOrientation="locked" />
-        <activity
-            android:name=".ui.changePassword.ChangePasswordActivity"
-            android:screenOrientation="locked" />
-        <activity
-            android:name=".ui.editprofile.EditProfileActivity"
-            android:screenOrientation="locked" />
-
-        <activity
-            android:name=".ui.discoverNewdeal.DiscoverNewDealActivity"
-            android:screenOrientation="locked" />
-
-        <activity
-            android:name=".ui.reedeem.RedeemActivity"
-            android:screenOrientation="locked" />
-
-        <activity
-            android:name=".ui.notification.NotificationActivity"
-            android:screenOrientation="locked" />
-
-        <activity
-            android:name=".ui.profile.ProfileActivity"
-            android:screenOrientation="locked" />
-
-        <activity
-            android:name=".ui.scanner.ScannerActivity"
-            android:screenOrientation="locked" />
     </application>
+
 </manifest>
