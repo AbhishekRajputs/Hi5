@@ -30,34 +30,34 @@ class DashboardActivity : BaseActivity() {
     }
 
 
+
     private fun setBottomNavClickListener() {
-        binding.bottomNavigation.setOnItemSelectedListener{
+        binding.bottomNavigation.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.home -> {
                     binding.viewPager.setCurrentItem(0, false)
-                    return@setOnItemSelectedListener  true
+                    return@setOnItemSelectedListener true
                 }
                 R.id.offers -> {
                     binding.viewPager.setCurrentItem(1, false)
-                    return@setOnItemSelectedListener  true
+                    return@setOnItemSelectedListener true
                 }
                 R.id.rewards -> {
                     binding.viewPager.setCurrentItem(2, false)
-                    return@setOnItemSelectedListener  true
+                    return@setOnItemSelectedListener true
                 }
                 R.id.discover -> {
                     binding.viewPager.setCurrentItem(3, false)
-                    return@setOnItemSelectedListener  true
+                    return@setOnItemSelectedListener true
                 }
                 R.id.wallets -> {
                     binding.viewPager.setCurrentItem(4, false)
-                    return@setOnItemSelectedListener  true
+                    return@setOnItemSelectedListener true
                 }
             }
             false
         }
     }
-
 
 
     private fun setUpViewPager() {

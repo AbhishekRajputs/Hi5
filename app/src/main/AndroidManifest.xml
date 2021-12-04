@@ -3,6 +3,7 @@
     package="com.example.hi5">
 
     <application
+        android:name=".base.BaseApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -39,6 +40,31 @@
         <activity
             android:name=".ui.dashboard.DashboardActivity"
             android:screenOrientation="locked" />
-    </application>
+        <activity
+            android:name=".ui.changePassword.ChangePasswordActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ui.editprofile.EditProfileActivity"
+            android:screenOrientation="locked" />
 
+        <activity
+            android:name=".ui.discoverNewdeal.DiscoverNewDealActivity"
+            android:screenOrientation="locked" />
+
+        <activity
+            android:name=".ui.reedeem.RedeemActivity"
+            android:screenOrientation="locked" />
+
+        <activity
+            android:name=".ui.notification.NotificationActivity"
+            android:screenOrientation="locked" />
+
+        <activity
+            android:name=".ui.profile.ProfileActivity"
+            android:screenOrientation="locked" />
+
+        <activity
+            android:name=".ui.scanner.ScannerActivity"
+            android:screenOrientation="locked" />
+    </application>
 </manifest>

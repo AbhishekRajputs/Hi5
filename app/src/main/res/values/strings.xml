@@ -9,4 +9,12 @@
     <string name="wallets">Wallets</string>
     <string name="redeem_points">Redeem Points</string>
     <string name="earn_points">Earn Points</string>
+    <string name="favourite">Favourites</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="refer_earn"><![CDATA[Refer & Earn]]></string>
+    <string name="redeem_history">Redeem History</string>
+    <string name="change_password">Change Password</string>
+    <string name="about_us">About Us</string>
+    <string name="help">Help</string>
+    <string name="terms_of_service">Terms of Service</string>
 </resources>
