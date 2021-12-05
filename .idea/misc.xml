@@ -19,19 +19,24 @@
         <entry key="app/src/main/res/drawable/ic_login_btn.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_mask_group.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/drawable/ic_selected_tab.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/tab_background_selected.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/drawable/tab_layout_background.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/drawable/tab_layout_selector.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.2828125" />
         <entry key="app/src/main/res/layout/activity_change_password.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_discover_new_deal.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_edit_profile.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_notification.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_offer_detail.xml" value="0.12968591691995948" />
         <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_otp.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_redeem.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_redemption.xml" value="0.23822463768115942" />
+        <entry key="app/src/main/res/layout/activity_redemption_product.xml" value="0.23822463768115942" />
         <entry key="app/src/main/res/layout/activity_refer_friend.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_scanner.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.16" />

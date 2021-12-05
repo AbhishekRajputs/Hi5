@@ -85,6 +85,14 @@
         <activity
             android:name=".ui.referFriend.ReferFriendActivity"
             android:screenOrientation="locked" />
+        <activity
+            android:name=".ui.offerDeatil.OfferDetailActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ui.redemption.RedemptionActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ui.redemption.RedemptionProductActivity"
+            android:screenOrientation="locked" />
     </application>
-
 </manifest>
