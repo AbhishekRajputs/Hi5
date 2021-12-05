@@ -32,17 +32,19 @@
         <entry key="app/src/main/res/layout/activity_otp.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_redeem.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_refer_friend.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_scanner.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.15625" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.26666666666666666" />
-        <entry key="app/src/main/res/layout/fragment_discover.xml" value="0.12760416666666666" />
+        <entry key="app/src/main/res/layout/fragment_discover.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_home_banner.xml" value="0.12760416666666666" />
         <entry key="app/src/main/res/layout/item_home_filter.xml" value="0.12760416666666666" />
         <entry key="app/src/main/res/layout/item_notification.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_on_boarding.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_refer_friend.xml" value="0.26666666666666666" />
       </map>
     </option>
   </component>

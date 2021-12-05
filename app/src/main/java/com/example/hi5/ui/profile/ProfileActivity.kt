@@ -1,8 +1,12 @@
 package com.example.hi5.ui.profile
 
+import android.Manifest
+import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.appcompat.widget.AppCompatTextView
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hi5.R
 import com.example.hi5.base.BaseActivity
@@ -12,7 +16,10 @@ import com.example.hi5.models.Profile
 import com.example.hi5.ui.changePassword.ChangePasswordActivity
 import com.example.hi5.ui.editprofile.EditProfileActivity
 import com.example.hi5.ui.login.LoginActivity
+import com.example.hi5.ui.referFriend.ReferFriendActivity
+import com.example.hi5.ui.scanner.ScannerActivity
 import com.example.hi5.utils.openActivity
+import com.example.hi5.utils.showToast
 
 /**
  * @author Pardeep Singh
@@ -26,6 +33,22 @@ class ProfileActivity : BaseActivity() {
         setContentView(binding.root)
 
         binding.imgBack.setOnClickListener { onBackPressed() }
+        binding.imgScan.setOnClickListener {
+            if (ContextCompat.checkSelfPermission(
+                    this,
+                    Manifest.permission.CAMERA
+                )
+                == PackageManager.PERMISSION_DENIED
+            ) {
+                ActivityCompat.requestPermissions(
+                    this,
+                    arrayOf(Manifest.permission.CAMERA),
+                    114
+                )
+            } else {
+                openActivity(ScannerActivity::class.java)
+            }
+        }
         binding.tvLogout.setOnClickListener {
             openActivity(LoginActivity::class.java)
             finishAffinity()
@@ -57,7 +80,7 @@ class ProfileActivity : BaseActivity() {
                             openActivity(EditProfileActivity::class.java)
                         }
                         getString(R.string.refer_earn) -> {
-
+                            openActivity(ReferFriendActivity::class.java)
                         }
                         getString(R.string.redeem_history) -> {
 
@@ -91,5 +114,20 @@ class ProfileActivity : BaseActivity() {
         }
         binding.rvProfile.adapter = adapter
         adapter.updateAdapter(Profile().getIconList())
+    }
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == 114) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                openActivity(ScannerActivity::class.java)
+            } else {
+                showToast("camera permission denied")
+            }
+        }
     }
 }
