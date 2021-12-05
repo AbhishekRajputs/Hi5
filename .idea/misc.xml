@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MIS/AndroidStudioProjects/Hi5/app/src/main/res/layout/activity_base.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/MIS/AndroidStudioProjects/Hi5/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/drawable/_bg_filter.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/bg_earn_points.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/bg_tab.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/filter_selected.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_arrow_right.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_bg_rectangle.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_btn_started.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_btn_verify.xml" value="0.14947916666666666" />
+        <entry key="app/src/main/res/drawable/ic_fb.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_google.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_graphic__1_.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_login_btn.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_mask_group.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/drawable/ic_selected_tab.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/tab_background_selected.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/drawable/tab_layout_background.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/drawable/tab_layout_selector.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.2828125" />
+        <entry key="app/src/main/res/layout/activity_change_password.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_discover_new_deal.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_edit_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_notification.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_offer_detail.xml" value="0.12968591691995948" />
+        <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_otp.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_redeem.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_redemption.xml" value="0.23822463768115942" />
+        <entry key="app/src/main/res/layout/activity_redemption_product.xml" value="0.23822463768115942" />
+        <entry key="app/src/main/res/layout/activity_refer_friend.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_scanner.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_discover.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_home_banner.xml" value="0.12760416666666666" />
+        <entry key="app/src/main/res/layout/item_home_filter.xml" value="0.12760416666666666" />
+        <entry key="app/src/main/res/layout/item_notification.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_on_boarding.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_refer_friend.xml" value="0.26666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

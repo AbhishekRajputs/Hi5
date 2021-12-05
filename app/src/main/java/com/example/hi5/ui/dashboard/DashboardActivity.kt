@@ -31,7 +31,6 @@ class DashboardActivity : BaseActivity() {
     }
 
 
-
     private fun setBottomNavClickListener() {
         binding.bottomNavigation.setOnItemSelectedListener {
             when (it.itemId) {
