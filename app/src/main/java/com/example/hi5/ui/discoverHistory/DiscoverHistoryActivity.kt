@@ -9,12 +9,14 @@ class DiscoverHistoryActivity : BaseActivity() {
 
     private val binding by lazy { ActivityDiscoverHistoryBinding.inflate(layoutInflater) }
     private val discoverHistoryAdapter by lazy {
-        DiscoverHistoryAdapter(arrayListOf("","","",""))
+        DiscoverHistoryAdapter(arrayListOf("", "", "", ""))
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.rvDiscoverHistory.adapter = discoverHistoryAdapter
 
+        binding.imgBack.setOnClickListener { onBackPressed() }
     }
 }

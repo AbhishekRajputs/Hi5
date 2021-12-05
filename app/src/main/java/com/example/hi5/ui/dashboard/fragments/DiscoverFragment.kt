@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.hi5.databinding.FragmentDiscoverBinding
 import com.example.hi5.ui.dashboard.DashboardActivity
+import com.example.hi5.ui.discoverHistory.DiscoverHistoryActivity
 import com.example.hi5.ui.discoverNewdeal.DiscoverNewDealActivity
 import com.example.hi5.utils.openActivity
 
@@ -31,7 +32,11 @@ class DiscoverFragment : Fragment() {
                 DiscoverNewDealActivity::class.java
             )
         }
-        binding.tvDiscoverHistory.setOnClickListener {}
+        binding.tvDiscoverHistory.setOnClickListener {
+            (activity as DashboardActivity).openActivity(
+                DiscoverHistoryActivity::class.java
+            )
+        }
     }
 
     companion object {
