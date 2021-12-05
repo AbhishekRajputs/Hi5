@@ -11,8 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hi5">
         <activity
+            android:name=".ui.discoverHistory.DiscoverHistoryActivity"
+            android:screenOrientation="locked" />
+        <activity
             android:name=".ui.points_history.PointsActivity"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
         <activity
             android:name=".ui.favourite.FavouriteActivity"
             android:screenOrientation="locked" />
