@@ -27,6 +27,7 @@
         app:layout_constraintTop_toBottomOf="@id/img_art" />
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dimen_20dp"
@@ -48,6 +49,31 @@
         app:layout_constraintEnd_toStartOf="@id/tv_policy_text"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="@id/btn_verify" />
+
+
+    <com.poovam.pinedittextfield.SquarePinField
+        android:id="@+id/squarePinField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:layout_marginEnd="16dp"
+        android:focusable="true"
+        android:inputType="number"
+        android:textSelectHandle="@drawable/text_handle"
+        android:textSize="18dp"
+        app:cornerRadius="@dimen/dimen_10dp"
+        app:fieldBgColor="@color/gray_light"
+        app:fieldColor="@color/grey"
+        app:highlightSingleFieldMode="false"
+        app:highlightType="completedFields"
+        app:isCursorEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvText"
+        app:lineThickness="1dp"
+        app:noOfFields="4" />
+
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_policy_text"

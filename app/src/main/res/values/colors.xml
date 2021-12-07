@@ -15,4 +15,5 @@
     <color name="red">#FF707E</color>
     <color name="bg_layout">#F5F5F8</color>
     <color name="grey_light">#E2E2E2</color>
+    <color name="gray_light">#F3F5FC</color>
 </resources>
