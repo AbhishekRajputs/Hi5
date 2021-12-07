@@ -22,4 +22,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Client List" />
+
+    <View
+        android:id="@+id/view_bottom1"
+        android:layout_width="0dp"
+        android:layout_height="0.8dp"
+        android:layout_marginStart="@dimen/dimen_24dp"
+        android:layout_marginLeft="@dimen/dimen_24dp"
+        android:layout_marginEnd="@dimen/dimen_24dp"
+        android:background="@color/grey_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_client_list" />
 </androidx.constraintlayout.widget.ConstraintLayout>
