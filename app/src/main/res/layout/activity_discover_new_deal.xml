@@ -67,24 +67,35 @@
         app:layout_constraintStart_toStartOf="@id/img_back"
         app:layout_constraintTop_toBottomOf="@id/et_new_password" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_photos"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dimen_30dp"
-        android:text="Add Photos"
+        android:layout_marginHorizontal="@dimen/dimen_20dp"
+        android:background="@drawable/edt_bg"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:padding="@dimen/dimen_12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/et_confirm_password" />
+        app:layout_constraintTop_toBottomOf="@id/et_confirm_password">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dimen_30dp"
-        app:layout_constraintBottom_toBottomOf="@id/tv_photos"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/tv_photos"
-        app:srcCompat="@drawable/ic_add_ring" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/ic_add_ring" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_photos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:gravity="center"
+            android:text="Add Photos" />
+
+    </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_save"
