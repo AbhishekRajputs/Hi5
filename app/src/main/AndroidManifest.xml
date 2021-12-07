@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hi5">
         <activity
+            android:name=".ui.deals.DealsDetailsActivity"
+            android:screenOrientation="locked" />
+        <activity
             android:name=".ui.discoverHistory.DiscoverHistoryActivity"
             android:screenOrientation="locked" />
         <activity
@@ -32,11 +35,11 @@
         <activity
             android:name=".ui.splash.SplashActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
         <activity
             android:name=".ui.onBoarding.OnBoardingActivity"
@@ -55,7 +58,14 @@
             android:screenOrientation="locked" />
         <activity
             android:name=".ui.dashboard.DashboardActivity"
-            android:screenOrientation="locked" />
+            android:screenOrientation="locked"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".ui.changePassword.ChangePasswordActivity"
             android:screenOrientation="locked" />

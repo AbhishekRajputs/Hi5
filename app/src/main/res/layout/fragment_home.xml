@@ -13,7 +13,6 @@
         android:layout_height="80dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:padding="8dp"
         android:src="@drawable/ic_profile"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
         android:ellipsize="end"
         android:maxLines="1"
         android:text="Hey, Steve"
@@ -44,7 +44,6 @@
         android:maxLines="1"
         android:text="Have a good day"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imgProfile"
         app:layout_constraintEnd_toStartOf="@+id/imgScanner"
         app:layout_constraintStart_toStartOf="@+id/tvName"
         app:layout_constraintTop_toBottomOf="@+id/tvName" />

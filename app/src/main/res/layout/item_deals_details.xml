@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:paddingBottom="@dimen/dimen_10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgDeal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:text="Product Name With Long Characters"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen_16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgDeal"
+        app:layout_constraintStart_toStartOf="@+id/imgDeal"
+        app:layout_constraintTop_toBottomOf="@+id/imgDeal" />
+
+    <TextView
+        android:id="@+id/tvProductTotalPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:text="$34"
+        android:textSize="@dimen/dimen_16sp"
+        app:layout_constraintStart_toStartOf="@+id/tvProductName"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductName" />
+
+    <TextView
+        android:id="@+id/tvProductDiscountPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_6dp"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:text="$28"
+        android:textColor="#FF558E"
+        android:textSize="@dimen/dimen_16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tvProductTotalPrice"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

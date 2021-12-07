@@ -15,7 +15,9 @@ import com.example.hi5.databinding.ActivityProfileBinding
 import com.example.hi5.models.Profile
 import com.example.hi5.ui.changePassword.ChangePasswordActivity
 import com.example.hi5.ui.editprofile.EditProfileActivity
+import com.example.hi5.ui.favourite.FavouriteActivity
 import com.example.hi5.ui.login.LoginActivity
+import com.example.hi5.ui.redeem_history.RedeemHistoryActivity
 import com.example.hi5.ui.referFriend.ReferFriendActivity
 import com.example.hi5.ui.scanner.ScannerActivity
 import com.example.hi5.utils.openActivity
@@ -74,7 +76,7 @@ class ProfileActivity : BaseActivity() {
                 holder.itemView.setOnClickListener {
                     when (position.itemName) {
                         getString(R.string.favourite) -> {
-
+                            openActivity(FavouriteActivity::class.java)
                         }
                         getString(R.string.edit_profile) -> {
                             openActivity(EditProfileActivity::class.java)
@@ -83,7 +85,7 @@ class ProfileActivity : BaseActivity() {
                             openActivity(ReferFriendActivity::class.java)
                         }
                         getString(R.string.redeem_history) -> {
-
+                            openActivity(RedeemHistoryActivity::class.java)
                         }
                         getString(R.string.change_password) -> {
                             openActivity(ChangePasswordActivity::class.java)
