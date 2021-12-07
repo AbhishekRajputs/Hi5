@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple">
+    android:fitsSystemWindows="true"
+    android:background="@drawable/ic_welcome">
 
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -46,9 +47,8 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginHorizontal="@dimen/dimen_60dp"
         android:layout_marginTop="@dimen/dimen_20dp"
-        android:layout_marginEnd="30dp"
         android:gravity="center"
         android:text="Explore the app, find some curated deals, promo codes and offers."
         android:textColor="@android:color/white"
@@ -56,27 +56,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_welcome" />
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/img_frame"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dimen_20dp"
-        android:layout_marginEnd="@dimen/dimen_20dp"
-        android:layout_marginBottom="@dimen/dimen_40dp"
-        android:background="@drawable/ic_frame"
-        app:layout_constraintBottom_toTopOf="@id/btn_started"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_started"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dimen_20dp"
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:layout_marginBottom="@dimen/dimen_40dp"
-        android:background="@drawable/ic_btn_started"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_cta_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
