@@ -59,13 +59,7 @@
         <activity
             android:name=".ui.dashboard.DashboardActivity"
             android:screenOrientation="locked"
-            android:exported="true">
-            <!-- <intent-filter>
-                 <action android:name="android.intent.action.MAIN" />
-
-                 <category android:name="android.intent.category.LAUNCHER" />
-             </intent-filter>-->
-        </activity>
+            android:exported="true"/>
         <activity
             android:name=".ui.changePassword.ChangePasswordActivity"
             android:screenOrientation="locked" />

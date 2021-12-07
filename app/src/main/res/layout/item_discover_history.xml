@@ -53,6 +53,8 @@
                 android:paddingStart="1dp"
                 android:paddingEnd="12dp"
                 android:layout_marginTop="@dimen/dimen_6dp"
+                android:maxLines="2"
+                android:ellipsize="end"
                 android:text="Comment which user posted Lorem ipsum dolor sit amet, elit, sed"
                 android:textSize="16sp"
                 android:layout_marginEnd="@dimen/dimen_10dp"
