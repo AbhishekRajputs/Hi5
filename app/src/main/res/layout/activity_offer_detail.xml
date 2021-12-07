@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimen_4dp"
-                android:background="@drawable/ic_frame"
+                android:src="@drawable/ic_frame"
                 app:layout_constraintTop_toBottomOf="@id/img_back" />
 
             <androidx.appcompat.widget.AppCompatTextView
@@ -82,6 +82,7 @@
         android:background="@drawable/ic_bg_rectangle"
         android:text="CONTACT"
         android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -46,9 +46,9 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="@dimen/dimen_20dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginEnd="40dp"
         android:gravity="center"
         android:text="Explore the app, find some curated deals, promo codes and offers."
         android:textColor="@android:color/white"
@@ -63,19 +63,22 @@
         android:layout_marginStart="@dimen/dimen_20dp"
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:layout_marginBottom="@dimen/dimen_40dp"
-        android:background="@drawable/ic_frame"
+        android:src="@drawable/ic_frame"
         app:layout_constraintBottom_toTopOf="@id/btn_started"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_started"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/dimen_0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dimen_20dp"
         android:layout_marginEnd="@dimen/dimen_20dp"
-        android:layout_marginBottom="@dimen/dimen_40dp"
-        android:background="@drawable/ic_btn_started"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/ic_bg_rectangle"
+        android:text="GET STARTED"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

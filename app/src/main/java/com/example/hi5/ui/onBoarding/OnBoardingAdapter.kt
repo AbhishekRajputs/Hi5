@@ -6,11 +6,14 @@ import android.graphics.drawable.Drawable
 import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.GONE
+import android.view.View.VISIBLE
 import android.view.ViewGroup
 import androidx.annotation.DrawableRes
 import androidx.annotation.RequiresApi
 import androidx.appcompat.content.res.AppCompatResources.getDrawable
 import androidx.appcompat.widget.AppCompatImageView
+import androidx.appcompat.widget.AppCompatTextView
 import androidx.viewpager.widget.PagerAdapter
 import com.example.hi5.R
 
@@ -30,23 +33,20 @@ class OnBoardingAdapter(private val list: ArrayList<Int>, private val context: C
             .inflate(R.layout.item_on_boarding, null)
         val img: AppCompatImageView = view.findViewById(R.id.img_icon)
         val img1: AppCompatImageView = view.findViewById(R.id.img_icon)
-        val img2: AppCompatImageView = view.findViewById(R.id.img_icon)
+        val skip: AppCompatTextView = view.findViewById(R.id.tv_skip)
 
         val sdk = Build.VERSION.SDK_INT
         val drawable =
             getDrawable(context.applicationContext, list[position])
         when (position) {
             0 -> {
-
+                skip.visibility = GONE
             }
             1 -> {
-
+                skip.visibility = GONE
             }
             2 -> {
-
-            }
-            3 -> {
-
+                skip.visibility = VISIBLE
             }
         }
         setDrawable(sdk, img, drawable)

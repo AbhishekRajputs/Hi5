@@ -58,7 +58,6 @@ class OnBoardingActivity : BaseActivity(), View.OnClickListener {
         list.add(R.drawable.ic_on_boarding)
         list.add(R.drawable.ic_on_boarding)
         list.add(R.drawable.ic_on_boarding)
-        list.add(R.drawable.ic_on_boarding)
         adapter.updateAdadpter(list)
     }
 

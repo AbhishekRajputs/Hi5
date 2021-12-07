@@ -27,8 +27,8 @@
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/img_profile"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_marginStart="@dimen/dimen_30dp"
         android:layout_marginEnd="@dimen/dimen_30dp"
         android:background="@drawable/ic_profile"
@@ -58,8 +58,8 @@
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/img_scan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/dimen_30dp"
+        android:layout_height="@dimen/dimen_30dp"
         android:layout_marginEnd="@dimen/dimen_30dp"
         android:background="@drawable/ic_new_scan"
         app:layout_constraintBottom_toBottomOf="@id/img_profile"
@@ -92,6 +92,7 @@
         android:gravity="center"
         android:text="Log Out"
         android:textColor="@color/grey_dark"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"

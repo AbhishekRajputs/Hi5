@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#77000000"
-        android:drawableStart="@drawable/ic_back"
+        android:drawableStart="@drawable/ic_back_cross"
         android:gravity="center"
         android:text="Scan QR"
         android:textColor="@android:color/white"
