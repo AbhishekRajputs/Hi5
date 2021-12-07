@@ -110,6 +110,7 @@
         android:background="@drawable/ic_bg_rectangle"
         android:text="REDEEM"
         android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
