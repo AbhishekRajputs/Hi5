@@ -8,12 +8,13 @@ class FavouriteActivity : BaseActivity() {
 
     private val binding by lazy { ActivityFavouriteBinding.inflate(layoutInflater) }
     private val favouritesAdapter by lazy {
-        FavouritesAdapter(arrayListOf("","","","","","","",""))
+        FavouritesAdapter(arrayListOf("", "", "", "", "", "", "", ""))
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.rvFavourites.adapter = favouritesAdapter
+        binding.imgBack.setOnClickListener { onBackPressed() }
     }
 }

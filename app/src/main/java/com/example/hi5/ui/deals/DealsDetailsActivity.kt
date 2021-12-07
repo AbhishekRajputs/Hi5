@@ -13,5 +13,6 @@ class DealsDetailsActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.rvDeals.adapter = dealsDetailsAdapter
+        binding.imgBack.setOnClickListener { onBackPressed() }
     }
 }
