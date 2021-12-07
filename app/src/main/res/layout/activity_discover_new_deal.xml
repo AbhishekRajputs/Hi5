@@ -33,6 +33,7 @@
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:background="@drawable/edt_bg"
         android:hint="Add Offer Title"
+        android:padding="@dimen/dimen_10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/img_back"
         app:layout_constraintTop_toBottomOf="@id/img_back" />
@@ -47,6 +48,7 @@
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:background="@drawable/edt_bg"
         android:hint="Company or Brand Name"
+        android:padding="@dimen/dimen_10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/img_back"
         app:layout_constraintTop_toBottomOf="@id/et_old_password" />
@@ -60,6 +62,7 @@
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:background="@drawable/edt_bg"
         android:hint="Offer Description"
+        android:padding="@dimen/dimen_10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/img_back"
         app:layout_constraintTop_toBottomOf="@id/et_new_password" />

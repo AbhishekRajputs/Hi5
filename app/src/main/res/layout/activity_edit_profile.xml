@@ -2,8 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/bg_layout">
+    android:layout_height="match_parent">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/img_back"
@@ -52,6 +51,7 @@
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:background="@drawable/edt_bg"
         android:hint="Paul Walker"
+        android:padding="@dimen/dimen_10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/img_back"
         app:layout_constraintTop_toBottomOf="@id/img_select_one" />
@@ -65,6 +65,7 @@
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:background="@drawable/edt_bg"
         android:hint="paulwalker@gmail.com"
+        android:padding="@dimen/dimen_10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/img_back"
         app:layout_constraintTop_toBottomOf="@id/et_old_password" />
@@ -78,6 +79,7 @@
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:background="@drawable/edt_bg"
         android:hint="Phone Number"
+        android:padding="@dimen/dimen_10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/img_back"
         app:layout_constraintTop_toBottomOf="@id/et_new_password" />
