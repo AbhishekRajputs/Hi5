@@ -75,6 +75,7 @@
             android:background="@drawable/edt_bg"
             android:hint="Name"
             android:padding="@dimen/dimen_10dp"
+            android:paddingStart="@dimen/dimen_10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_or" />
@@ -89,6 +90,7 @@
             android:background="@drawable/edt_bg"
             android:hint="Email"
             android:padding="@dimen/dimen_10dp"
+            android:paddingStart="@dimen/dimen_10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/et_name" />
@@ -104,6 +106,7 @@
             android:drawableEnd="@drawable/ic_vector"
             android:hint="Password"
             android:padding="@dimen/dimen_10dp"
+            android:paddingStart="@dimen/dimen_10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/et_email" />

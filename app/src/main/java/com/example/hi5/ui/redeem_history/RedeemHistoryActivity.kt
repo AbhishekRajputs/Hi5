@@ -14,5 +14,6 @@ class RedeemHistoryActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.rvRedeem.adapter = redeemHistoryAdapter
+        binding.imgBack.setOnClickListener { onBackPressed() }
     }
 }
