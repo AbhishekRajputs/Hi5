@@ -47,6 +47,10 @@ class BottomSheet(var listener: BottomSheetClickListener) : BottomSheetDialogFra
             listener.onButtonClick()
             dismiss()
         }
+
+        binding.imgClose.setOnClickListener{
+            dismiss()
+        }
     }
 
     interface BottomSheetClickListener {
