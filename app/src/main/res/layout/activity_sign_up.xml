@@ -22,6 +22,7 @@
             android:id="@+id/tv_welcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
             android:text="Welcome back!"
             android:textColor="@color/grey_dark"
             android:textSize="26sp"
@@ -68,7 +69,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et_name"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/dimen_60dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="@dimen/dimen_12dp"
@@ -83,7 +84,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et_email"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/dimen_60dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="@dimen/dimen_12dp"
@@ -98,7 +99,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et_password"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/dimen_60dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="@dimen/dimen_12dp"
