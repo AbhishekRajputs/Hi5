@@ -104,7 +104,7 @@
             android:layout_marginTop="@dimen/dimen_30dp"
             android:layout_marginEnd="@dimen/dimen_20dp"
             android:layout_marginBottom="30dp"
-            android:background="@drawable/ic_bg_rectangle"
+            android:background="@drawable/ic_cta_bg"
             android:text="LOG IN"
             android:textColor="@android:color/white"
             android:textStyle="bold"
