@@ -13,7 +13,8 @@
         android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="10dp"
         android:text="Wallets"
-        android:textColor="@color/black"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/montserrat_bold"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
@@ -50,6 +51,7 @@
             android:text="Active Points Balance"
             android:textColor="@color/white"
             android:textSize="@dimen/dimen_12sp"
+            android:fontFamily="@font/montserrat_regular"
             app:layout_constraintStart_toEndOf="@+id/imgReferFriends"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -61,6 +63,7 @@
             android:text="24,420"
             android:textColor="@color/white"
             android:textSize="@dimen/dimen_20sp"
+            android:fontFamily="@font/montserrat_semibold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imgReferFriends"
             app:layout_constraintTop_toBottomOf="@+id/tvtext" />
@@ -100,6 +103,7 @@
                 android:paddingHorizontal="@dimen/dimen_8dp"
                 android:text="Used Coupon"
                 android:paddingVertical="@dimen/dimen_4dp"
+                android:fontFamily="@font/montserrat_regular"
                 android:textSize="@dimen/dimen_14sp"
                 app:layout_constraintStart_toEndOf="@+id/imgUsedIcon"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -110,7 +114,8 @@
                 android:layout_height="wrap_content"
                 android:text="5"
                 android:paddingHorizontal="@dimen/dimen_8dp"
-                android:textColor="@color/black"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/montserrat_semibold"
                 android:textSize="@dimen/dimen_24sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/tvTextUsedCoupon"
@@ -143,6 +148,7 @@
                 android:paddingHorizontal="@dimen/dimen_8dp"
                 android:text="Unused Coupon"
                 android:paddingVertical="@dimen/dimen_4dp"
+                android:fontFamily="@font/montserrat_regular"
                 android:textSize="@dimen/dimen_14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -153,7 +159,8 @@
                 android:layout_height="wrap_content"
                 android:paddingHorizontal="@dimen/dimen_8dp"
                 android:text="5"
-                android:textColor="@color/black"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/montserrat_semibold"
                 android:textSize="@dimen/dimen_24sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/tvTextUnUsedCoupon"
