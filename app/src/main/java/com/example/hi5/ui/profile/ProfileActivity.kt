@@ -23,9 +23,7 @@ import com.example.hi5.ui.scanner.ScannerActivity
 import com.example.hi5.utils.openActivity
 import com.example.hi5.utils.showToast
 
-/**
- * @author Pardeep Singh
- */
+
 class ProfileActivity : BaseActivity() {
 
     private lateinit var adapter: BaseAdadpter<Profile>

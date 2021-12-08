@@ -8,9 +8,6 @@ import com.example.hi5.base.BaseAdadpter
 import com.example.hi5.databinding.ActivityReferFriendBinding
 import com.example.hi5.models.AppModel
 
-/**
- * @author Pardeep Singh
- */
 class ReferFriendActivity : BaseActivity() {
 
     private val binding by lazy { ActivityReferFriendBinding.inflate(layoutInflater) }

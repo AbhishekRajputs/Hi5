@@ -4,9 +4,7 @@ import android.os.Bundle
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityOfferDetailBinding
 
-/**
- * @author Pardeep Singh
- */
+
 class OfferDetailActivity : BaseActivity() {
 
     private val binding by lazy { ActivityOfferDetailBinding.inflate(layoutInflater) }

@@ -17,4 +17,5 @@
     <color name="grey_light">#E2E2E2</color>
     <color name="gray_light">#F3F5FC</color>
     <color name="bg_edit">#EBEAEC</color>
+    <color name="text_color">#3F414E</color>
 </resources>

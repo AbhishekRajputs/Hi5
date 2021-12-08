@@ -10,9 +10,7 @@ import com.example.hi5.ui.login.LoginActivity
 import com.example.hi5.ui.signUp.SignUpActivity
 import com.example.hi5.utils.openActivity
 
-/**
- * @author Pardeep Singh
- */
+
 class OnBoardingActivity : BaseActivity(), View.OnClickListener {
 
     private val binding by lazy { ActivityOnBoardingBinding.inflate(layoutInflater) }

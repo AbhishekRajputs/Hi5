@@ -5,9 +5,7 @@ import com.example.hi5.R
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityRedemptionProductBinding
 
-/**
- * @author Pardeep Singh
- */
+
 class RedemptionProductActivity : BaseActivity() {
 
     private val binding by lazy { ActivityRedemptionProductBinding.inflate(layoutInflater) }

@@ -4,9 +4,7 @@ import android.os.Bundle
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityChangePasswordBinding
 
-/**
- * @author Pardeep Singh
- */
+
 class ChangePasswordActivity : BaseActivity() {
 
     private val binding by lazy { ActivityChangePasswordBinding.inflate(layoutInflater) }

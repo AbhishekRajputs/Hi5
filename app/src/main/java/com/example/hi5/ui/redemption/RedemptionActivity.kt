@@ -4,9 +4,6 @@ import android.os.Bundle
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityRedemptionBinding
 
-/**
- * @author Pardeep Singh
- */
 class RedemptionActivity : BaseActivity() {
 
     private val binding by lazy { ActivityRedemptionBinding.inflate(layoutInflater) }
