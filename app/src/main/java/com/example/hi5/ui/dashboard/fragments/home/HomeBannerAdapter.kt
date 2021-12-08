@@ -25,7 +25,8 @@ class HomeBannerAdapter(private val list: ArrayList<String>) :
 
     override fun getItemCount() = list.size
 
-    inner class BannerViewHolder(private var binding: ItemHomeBannerBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class BannerViewHolder(private var binding: ItemHomeBannerBinding) :
+        RecyclerView.ViewHolder(binding.root) {
         fun bindItems(s: String) {
 
         }
