@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:text="Name of the Deal"
-                android:textColor="@color/black"
+                android:textColor="@color/text_color"
                 android:textSize="18sp"
                 android:fontFamily="@font/montserrat_semibold"
                 app:layout_constraintBottom_toTopOf="@+id/tvDealsDetails"
