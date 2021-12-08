@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
     android:background="#F5F5F8"
+    android:padding="10dp"
     tools:context=".ui.dashboard.fragments.offers.OffersFragment">
 
     <TextView
         android:id="@+id/tvOffers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
         android:text="Offers"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginVertical="10dp"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
