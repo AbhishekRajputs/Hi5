@@ -18,9 +18,7 @@ import androidx.viewpager.widget.PagerAdapter
 import com.example.hi5.R
 
 
-/**
- * @author Pardeep Singh
- */
+
 class OnBoardingAdapter(private val list: ArrayList<Int>, private val context: Context) :
     PagerAdapter() {
     override fun isViewFromObject(view: View, `object`: Any): Boolean {

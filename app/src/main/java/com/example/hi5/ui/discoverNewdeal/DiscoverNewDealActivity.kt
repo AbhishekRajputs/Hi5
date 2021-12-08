@@ -4,9 +4,7 @@ import android.os.Bundle
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityDiscoverNewDealBinding
 
-/**
- * @author Pardeep Singh
- */
+
 class DiscoverNewDealActivity : BaseActivity() {
 
     private val binding by lazy { ActivityDiscoverNewDealBinding.inflate(layoutInflater) }

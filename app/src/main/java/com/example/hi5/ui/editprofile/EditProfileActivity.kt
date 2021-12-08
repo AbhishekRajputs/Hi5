@@ -4,9 +4,7 @@ import android.os.Bundle
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityEditProfileBinding
 
-/**
- * @author Pardeep Singh
- */
+
 class EditProfileActivity : BaseActivity() {
 
     private val binding by lazy { ActivityEditProfileBinding.inflate(layoutInflater) }

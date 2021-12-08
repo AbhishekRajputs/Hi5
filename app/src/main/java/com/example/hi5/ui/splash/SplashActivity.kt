@@ -8,9 +8,7 @@ import com.example.hi5.base.BaseActivity
 import com.example.hi5.ui.onBoarding.OnBoardingActivity
 import com.example.hi5.utils.openActivity
 
-/**
- * @author Pardeep Singh
- */
+
 class SplashActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

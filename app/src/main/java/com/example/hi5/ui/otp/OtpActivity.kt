@@ -6,9 +6,7 @@ import com.example.hi5.databinding.ActivityOtpBinding
 import com.example.hi5.ui.welcome.WelcomeActivity
 import com.example.hi5.utils.openActivity
 
-/**
- * @author Pardeep Singh
- */
+
 class OtpActivity : BaseActivity() {
 
     private val binding by lazy { ActivityOtpBinding.inflate(layoutInflater) }

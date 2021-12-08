@@ -7,6 +7,12 @@ import com.example.hi5.databinding.ItemRedeemBinding
 
 class RedeemAdapter(private val list: ArrayList<String>) : RecyclerView.Adapter<RedeemAdapter.RedeemViewHolder>() {
 
+    private lateinit var onRedeemClickListener: OnRedeemClickListener
+
+    fun setListener(onRedeemClickListener: OnRedeemClickListener){
+        this.onRedeemClickListener = onRedeemClickListener
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RedeemViewHolder {
         return RedeemViewHolder(
             ItemRedeemBinding.inflate(
@@ -25,7 +31,11 @@ class RedeemAdapter(private val list: ArrayList<String>) : RecyclerView.Adapter<
 
     inner class RedeemViewHolder(private var binding: ItemRedeemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bindItems(s: String) {
-
+            binding.tvRedeem.setOnClickListener { onRedeemClickListener.onRedeemClick() }
         }
+    }
+
+    interface OnRedeemClickListener{
+        fun onRedeemClick()
     }
 }

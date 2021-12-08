@@ -8,9 +8,7 @@ import com.example.hi5.ui.otp.OtpActivity
 import com.example.hi5.ui.signUp.SignUpActivity
 import com.example.hi5.utils.openActivity
 
-/**
- * @author Pardeep Singh
- */
+
 class LoginActivity : BaseActivity() {
 
     private val binding by lazy { ActivityLoginBinding.inflate(layoutInflater) }

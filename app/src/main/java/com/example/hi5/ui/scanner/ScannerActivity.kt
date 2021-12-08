@@ -8,9 +8,7 @@ import com.example.hi5.R
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityScannerBinding
 
-/**
- * @author Pardeep Singh
- */
+
 class ScannerActivity : BaseActivity() {
 
     private lateinit var codeScanner: CodeScanner

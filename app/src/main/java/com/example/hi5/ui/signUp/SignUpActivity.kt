@@ -6,9 +6,7 @@ import com.example.hi5.databinding.ActivitySignUpBinding
 import com.example.hi5.ui.login.LoginActivity
 import com.example.hi5.utils.openActivity
 
-/**
- * @author Pardeep Singh
- */
+
 class SignUpActivity : BaseActivity() {
 
     private val binding by lazy { ActivitySignUpBinding.inflate(layoutInflater) }
