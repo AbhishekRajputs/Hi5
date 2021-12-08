@@ -19,6 +19,7 @@
         <entry key="app/src/main/res/drawable/ic_graphic__1_.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_login_btn.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_mask_group.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_mask_group__1_.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_new_scan.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/drawable/ic_scanner.xml" value="0.2828125" />
@@ -53,6 +54,7 @@
         <entry key="app/src/main/res/layout/item_home_deals.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_home_filter.xml" value="0.12760416666666666" />
         <entry key="app/src/main/res/layout/item_notification.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_offer.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_on_boarding.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_profile.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_refer_friend.xml" value="0.26666666666666666" />

@@ -61,10 +61,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dimen_12dp"
-                android:layout_marginTop="@dimen/dimen_30dp"
+                android:layout_marginTop="@dimen/dimen_12dp"
                 android:layout_marginEnd="@dimen/dimen_12dp"
-                android:text="process is available
-        for you to share. Be careful: this heap dump may contain any sensitive personal information
+                android:text="Process is available for you to share. Be careful: this heap dump may contain any sensitive personal information
         that the process has access to, which may include things you\u2019ve typed."
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +78,7 @@
         android:layout_marginStart="@dimen/dimen_20dp"
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:layout_marginBottom="30dp"
-        android:background="@drawable/ic_bg_rectangle"
+        android:background="@drawable/ic_cta_bg"
         android:text="CONTACT"
         android:textColor="@android:color/white"
         android:textStyle="bold"

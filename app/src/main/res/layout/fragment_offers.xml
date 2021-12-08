@@ -27,7 +27,7 @@
         android:layout_marginTop="14dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvOffers" />
-
+        app:layout_constraintTop_toBottomOf="@+id/tvOffers"
+        tools:listitem="@layout/item_offer" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
