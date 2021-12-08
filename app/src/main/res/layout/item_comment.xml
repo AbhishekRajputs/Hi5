@@ -94,7 +94,7 @@
         android:id="@+id/tvBrand"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Replay"
+        android:text="Reply"
         android:textColor="@color/text_color"
         android:textSize="12sp"
         android:fontFamily="@font/montserrat_semibold"
