@@ -5,6 +5,7 @@ import com.example.hi5.R
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.base.BasePagerAdapter
 import com.example.hi5.databinding.ActivityMainBinding
+import com.example.hi5.ui.dashboard.fragments.discover.DiscoverFragment
 import com.example.hi5.ui.dashboard.fragments.*
 import com.example.hi5.ui.dashboard.fragments.home.HomeFragment
 import com.example.hi5.ui.dashboard.fragments.offers.OffersFragment

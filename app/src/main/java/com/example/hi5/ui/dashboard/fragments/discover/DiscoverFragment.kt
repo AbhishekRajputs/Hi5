@@ -1,4 +1,4 @@
-package com.example.hi5.ui.dashboard.fragments
+package com.example.hi5.ui.dashboard.fragments.discover
 
 import android.os.Bundle
 import android.view.LayoutInflater

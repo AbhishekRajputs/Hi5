@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.hi5.databinding.FragmentWalletsBinding
-import com.example.hi5.ui.dashboard.DiscoverHistoryAdapter
+import com.example.hi5.ui.dashboard.fragments.discover.DiscoverHistoryAdapter
 
 class WalletsFragment : Fragment() {
 
