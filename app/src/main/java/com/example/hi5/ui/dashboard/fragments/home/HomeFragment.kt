@@ -46,8 +46,15 @@ class HomeFragment : Fragment() {
         binding.rvBanner.adapter = homeBannerAdapter
         binding.rvFilter.adapter = filterAdapter
         binding.rvDeals.adapter = dealsAdapter
+        filterAdapter.setListener(listener)
 
         listeners()
+    }
+
+    private val listener = object : FilterAdapter.FilterClickListener {
+        override fun onItemClick(value: String) {
+            filterAdapter.updateAdapter(value)
+        }
     }
 
     private fun listeners() {

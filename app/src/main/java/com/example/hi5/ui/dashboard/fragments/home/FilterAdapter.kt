@@ -6,9 +6,15 @@ import com.example.hi5.databinding.ItemHomeFilterBinding
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-class FilterAdapter(private val list: ArrayList<String>,private val previousSelectedItem: String) :
+class FilterAdapter(private val list: ArrayList<String>,private var previousSelectedItem: String) :
 
     RecyclerView.Adapter<FilterAdapter.FilerViewHolder>() {
+
+    private lateinit var filerListener: FilterClickListener
+
+    fun setListener(Listener: FilterClickListener){
+        filerListener = Listener
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FilerViewHolder {
         return FilerViewHolder(
@@ -24,6 +30,11 @@ class FilterAdapter(private val list: ArrayList<String>,private val previousSele
         holder.bindItems(list[position])
     }
 
+    fun updateAdapter(value :String){
+        previousSelectedItem = value
+        notifyDataSetChanged()
+    }
+
     override fun getItemCount() = list.size
 
     inner class FilerViewHolder(private var binding: ItemHomeFilterBinding) : RecyclerView.ViewHolder(binding.root) {
@@ -37,6 +48,14 @@ class FilterAdapter(private val list: ArrayList<String>,private val previousSele
             }
 
             binding.tvFilter.text =s
+
+            binding.clParent.setOnClickListener {
+                filerListener.onItemClick(s)
+            }
         }
+    }
+
+    interface FilterClickListener {
+        fun onItemClick(value: String)
     }
 }

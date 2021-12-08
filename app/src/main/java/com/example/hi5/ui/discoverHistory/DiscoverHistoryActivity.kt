@@ -3,7 +3,7 @@ package com.example.hi5.ui.discoverHistory
 import android.os.Bundle
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityDiscoverHistoryBinding
-import com.example.hi5.ui.dashboard.DiscoverHistoryAdapter
+import com.example.hi5.ui.dashboard.fragments.discover.DiscoverHistoryAdapter
 
 class DiscoverHistoryActivity : BaseActivity() {
 
