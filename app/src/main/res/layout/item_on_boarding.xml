@@ -16,13 +16,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_skip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dimen_20dp"
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:padding="@dimen/dimen_10dp"
         android:text="SKIP"
-        android:id="@+id/tv_skip"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,8 @@
         android:gravity="center"
         android:text="Curated deals for you"
         android:textColor="?android:attr/textColorPrimary"
-        android:textSize="30sp"
+        android:textSize="@dimen/dimen_24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
