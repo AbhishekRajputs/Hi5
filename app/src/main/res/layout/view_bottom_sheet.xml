@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen_12dp"
+    android:paddingEnd="@dimen/dimen_8dp"
+    android:paddingTop="@dimen/dimen_8dp"
+    android:paddingBottom="@dimen/dimen_30dp">
+
+    <ImageView
+        android:id="@+id/imgClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_8dp"
+        android:src="@drawable/ic_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imgDeal"
+        android:layout_width="@dimen/dimen_80dp"
+        android:layout_height="@dimen/dimen_80dp"
+        android:elevation="8dp"
+        android:src="@drawable/ic_frame"
+        app:layout_constraintTop_toBottomOf="@+id/imgClose"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvPointsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Gift Card"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvPointsHistoryDetails"
+        app:layout_constraintStart_toEndOf="@+id/imgDeal"
+        app:layout_constraintTop_toTopOf="@+id/imgDeal" />
+
+    <TextView
+        android:id="@+id/tvPointsHistoryDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:layout_marginEnd="@dimen/dimen_10dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat_semibold"
+        android:maxLines="2"
+        android:paddingStart="1dp"
+        android:paddingEnd="12dp"
+        android:text="Comment which user posted Lorem ipsum dolor sit amet, elit, sed"
+        android:textColor="@color/text_color"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/imgDeal"
+        app:layout_constraintStart_toStartOf="@+id/tvPointsTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvPointsTitle" />
+
+    <TextView
+        android:id="@+id/tvCouponDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:layout_marginEnd="@dimen/dimen_10dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat_regular"
+        android:maxLines="1"
+        android:paddingStart="1dp"
+        android:paddingEnd="12dp"
+        android:text="Nov 26, 2021, 10:30 AM"
+        android:textColor="@color/light_text_color"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvPointsTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvPointsHistoryDetails" />
+
+    <View
+        android:id="@+id/divider"
+        app:layout_constraintTop_toBottomOf="@+id/tvCouponDate"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:background="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1dp"/>
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Your Coupon Code"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/dimen_14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+
+    <TextView
+        android:id="@+id/tvCoupon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Hello007"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:textColor="#FF588D"
+        android:textSize="@dimen/dimen_20sp"
+        android:gravity="center"
+        android:background="@drawable/ic_rectangle_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+
+    <TextView
+        android:id="@+id/tvTerms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Terms:"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/dimen_14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCoupon" />
+
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/dimen_14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitle"
+        app:layout_constraintStart_toStartOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvTerms" />
+
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="@dimen/dimen_14dp"
+        android:layout_marginTop="@dimen/dimen_40dp"
+        android:background="@drawable/ic_cta_bg"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Proceed"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetails" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
