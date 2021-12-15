@@ -70,118 +70,36 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/dimen_12dp"
-        android:layout_marginTop="@dimen/dimen_30dp"
-        android:background="@color/white"
-        android:elevation="@dimen/dimen_6dp"
-        app:cardCornerRadius="@dimen/dimen_6dp"
-        app:layout_constraintTop_toBottomOf="@+id/layoutDetails">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        style="@style/TabLayout"
+        android:layout_width="0dp"
+        android:layout_height="?actionBarSize"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_tab"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutDetails"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="#FF558E" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/dimen_12dp">
-
-            <ImageView
-                android:id="@+id/imgUsedIcon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/dimen_8dp"
-                android:src="@drawable/ic_used_coupon"
-                app:layout_constraintBottom_toBottomOf="@+id/tvTextUsedCoupon"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/tvTextUsedCoupon" />
-
-            <TextView
-                android:id="@+id/tvTextUsedCoupon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="@dimen/dimen_8dp"
-                android:text="Used Coupon"
-                android:paddingVertical="@dimen/dimen_4dp"
-                android:fontFamily="@font/montserrat_regular"
-                android:textSize="@dimen/dimen_14sp"
-                app:layout_constraintStart_toEndOf="@+id/imgUsedIcon"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/tvUsedCoupon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5"
-                android:paddingHorizontal="@dimen/dimen_8dp"
-                android:textColor="@color/text_color"
-                android:fontFamily="@font/montserrat_semibold"
-                android:textSize="@dimen/dimen_24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/tvTextUsedCoupon"
-                app:layout_constraintTop_toBottomOf="@+id/tvTextUsedCoupon" />
-
-            <View
-                android:id="@+id/divider"
-                android:layout_width="0.5dp"
-                android:layout_height="0dp"
-                android:background="#EBEAEC"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imgUnUsedIcon"
-                app:layout_constraintStart_toEndOf="@+id/tvTextUsedCoupon"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/imgUnUsedIcon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_unused_coupon"
-                app:layout_constraintBottom_toBottomOf="@+id/tvTextUnUsedCoupon"
-                app:layout_constraintEnd_toStartOf="@+id/tvTextUnUsedCoupon"
-                app:layout_constraintTop_toTopOf="@+id/tvTextUnUsedCoupon" />
-
-            <TextView
-                android:id="@+id/tvTextUnUsedCoupon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/dimen_8dp"
-                android:paddingHorizontal="@dimen/dimen_8dp"
-                android:text="Unused Coupon"
-                android:paddingVertical="@dimen/dimen_4dp"
-                android:fontFamily="@font/montserrat_regular"
-                android:textSize="@dimen/dimen_14sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/tvUnUsedCoupon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="@dimen/dimen_8dp"
-                android:text="5"
-                android:textColor="@color/text_color"
-                android:fontFamily="@font/montserrat_semibold"
-                android:textSize="@dimen/dimen_24sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/tvTextUnUsedCoupon"
-                app:layout_constraintTop_toBottomOf="@+id/tvTextUnUsedCoupon" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
-
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvDiscoverHistory"
+    <com.example.hi5.utils.UnScrollableViewPager
+        android:id="@+id/viewPager"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginHorizontal="@dimen/dimen_6dp"
-        android:layout_marginTop="@dimen/dimen_16dp"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardview" />
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
