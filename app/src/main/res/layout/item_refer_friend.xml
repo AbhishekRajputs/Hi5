@@ -20,9 +20,9 @@
         android:layout_marginStart="@dimen/dimen_8dp"
         android:layout_marginTop="@dimen/dimen_2dp"
         android:layout_marginEnd="@dimen/dimen_30dp"
+        android:fontFamily="@font/montserrat_semibold"
         android:text="Darlene Steward"
         android:textColor="@color/grey_dark"
-        android:fontFamily="@font/montserrat_semibold"
         android:textSize="@dimen/dimen_16sp"
         app:layout_constraintBottom_toBottomOf="@id/img_profile"
         app:layout_constraintStart_toEndOf="@id/img_profile"
@@ -31,10 +31,11 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
         android:text="INVITE"
         android:textColor="@color/red"
         android:textSize="@dimen/dimen_12sp"
-        android:fontFamily="@font/montserrat_semibold"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/img_profile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/img_profile" />
