@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dimen_20dp"
-            android:text="Or LOG IN WITH EMAIL"
+            android:text="OR LOG IN WITH EMAIL"
             android:textColor="@color/grey_dark"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -118,6 +118,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dimen_40dp"
             android:text="I have read the "
+            android:textColor="@android:color/black"
             app:layout_constraintStart_toStartOf="@id/et_password"
             app:layout_constraintTop_toBottomOf="@id/et_password" />
 
@@ -126,6 +127,7 @@
             android:layout_height="wrap_content"
             android:text="Privacy Policy"
             android:textColor="@color/grey_dark"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@id/tv_policy"
             app:layout_constraintStart_toEndOf="@id/tv_policy"
             app:layout_constraintTop_toTopOf="@id/tv_policy" />

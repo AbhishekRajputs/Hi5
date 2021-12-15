@@ -44,6 +44,7 @@
         android:text="Paul Walker"
         android:textColor="@color/grey_dark"
         android:textSize="@dimen/dimen_18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/img_profile"
         app:layout_constraintTop_toTopOf="@id/img_profile" />
@@ -53,6 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="Points 1,925"
+        android:textColor="@android:color/black"
         android:textSize="@dimen/dimen_14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/img_profile"
@@ -60,8 +62,8 @@
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/img_scan"
-        android:layout_width="@dimen/dimen_30dp"
-        android:layout_height="@dimen/dimen_30dp"
+        android:layout_width="@dimen/dimen_40dp"
+        android:layout_height="@dimen/dimen_40dp"
         android:layout_marginEnd="@dimen/dimen_30dp"
         android:background="@drawable/ic_new_scan"
         app:layout_constraintBottom_toBottomOf="@id/img_profile"

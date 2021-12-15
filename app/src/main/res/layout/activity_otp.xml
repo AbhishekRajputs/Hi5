@@ -34,10 +34,25 @@
         android:layout_marginStart="@dimen/dimen_20dp"
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:gravity="center"
-        android:text="Enter the OTP send to your registered email id user@gmail.com"
+        android:text="Enter the OTP send to your registered email id"
+        android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_otp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvText_two"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_20dp"
+        android:gravity="center"
+        android:text="user@gmail.com"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvText" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_policy"
@@ -46,11 +61,11 @@
         android:layout_marginTop="@dimen/dimen_20dp"
         android:layout_marginBottom="@dimen/dimen_20dp"
         android:text="Don't received code? "
+        android:textColor="@android:color/black"
         app:layout_constraintBottom_toTopOf="@id/btn_verify"
         app:layout_constraintEnd_toStartOf="@id/tv_policy_text"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="@id/btn_verify" />
-
 
     <com.poovam.pinedittextfield.SquarePinField
         android:id="@+id/squarePinField"
@@ -71,10 +86,9 @@
         app:isCursorEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvText"
+        app:layout_constraintTop_toBottomOf="@+id/tvText_two"
         app:lineThickness="1dp"
         app:noOfFields="4" />
-
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_policy_text"
@@ -102,5 +116,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
