@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_layout">
+    android:background="@color/light">
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nested"
@@ -66,9 +66,11 @@
                 android:layout_marginStart="@dimen/dimen_12dp"
                 android:layout_marginTop="@dimen/dimen_12dp"
                 android:layout_marginEnd="@dimen/dimen_12dp"
-                android:text="process is available
-        for you to share. Be careful: this heap dump may contain any sensitive personal information
-        that the process has access to, which may include things you\u2019ve typed."
+                android:text="process is available for you to share. Be careful: this heap dump may contain any sensitive personal information
+        that the process has access to, which may include things you\u2019ve typed.
+process is available for you to share. Be careful: this heap dump may contain any sensitive personal information
+        that the process has access to, which may include things you\u2019ve typed.
+"
                 android:textColor="@android:color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -93,9 +95,14 @@
                 android:layout_marginTop="@dimen/dimen_12dp"
                 android:layout_marginEnd="@dimen/dimen_12dp"
                 android:layout_marginBottom="@dimen/dimen_30dp"
-                android:text="process is available
-        for you to share. Be careful: this heap dump may contain any sensitive personal information
-        that the process has access to, which may include things you\u2019ve typed."
+                android:text="process is available for you to share. Be careful: this heap dump may contain any sensitive personal information
+        that the process has access to, which may include things you\u2019ve typed.
+process is available for you to share. Be careful: this heap dump may contain any sensitive personal information
+        that the process has access to, which may include things you\u2019ve typed
+process is available for you to share. Be careful: this heap dump may contain any sensitive personal information
+        that the process has access to, which may include things you\u2019ve typed.
+process is available for you to share. Be careful: this heap dump may contain any sensitive personal information
+        that the process has access to, which may include things you\u2019ve typed"
                 android:textColor="@android:color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
