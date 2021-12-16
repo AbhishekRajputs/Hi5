@@ -5,9 +5,9 @@ import androidx.fragment.app.DialogFragment
 import com.example.hi5.R
 import com.example.hi5.base.BaseActivity
 import com.example.hi5.databinding.ActivityRedeemPointsBinding
+import com.example.hi5.models.AppModel
 import com.example.hi5.ui.dashboard.fragments.home.HomeBannerAdapter
 import com.example.hi5.ui.dashboard.fragments.rewards.fragments.RedeemAdapter
-import com.example.hi5.ui.redeem_history.RedeemHistoryActivity
 import com.example.hi5.ui.reedeem.RedeemActivity
 import com.example.hi5.utils.BottomSheet
 import com.example.hi5.utils.openActivity
@@ -20,7 +20,15 @@ class RedeemPointsActivity : BaseActivity(),RedeemAdapter.OnRedeemClickListener 
     }
 
     private val redeemAdapter by lazy {
-        RedeemAdapter(arrayListOf("", "", "", "", ""))
+        RedeemAdapter(
+            arrayListOf(
+                AppModel("Gift Card", "Gift"),
+                AppModel("Product Name With..", "Product"),
+                AppModel("Gift Card", "Gift"),
+                AppModel("Gift Card", "Gift"),
+                AppModel("Gift Card", "Gift")
+            )
+        )
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,7 +51,7 @@ class RedeemPointsActivity : BaseActivity(),RedeemAdapter.OnRedeemClickListener 
         bottomSheetFragment.show(supportFragmentManager, null)
     }
 
-    override fun onRedeemClick() {
+    override fun onRedeemClick(titleTwo: String) {
         bottomSheet()
     }
 }

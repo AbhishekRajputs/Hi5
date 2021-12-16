@@ -30,7 +30,7 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Offer Detail"
+                android:text="Redemption"
                 android:textColor="@color/grey_dark"
                 android:textSize="@dimen/dimen_20sp"
                 android:textStyle="bold"
@@ -64,11 +64,12 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dimen_12dp"
-                android:layout_marginTop="@dimen/dimen_30dp"
+                android:layout_marginTop="@dimen/dimen_12dp"
                 android:layout_marginEnd="@dimen/dimen_12dp"
                 android:text="process is available
         for you to share. Be careful: this heap dump may contain any sensitive personal information
         that the process has access to, which may include things you\u2019ve typed."
+                android:textColor="@android:color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_title" />
@@ -80,7 +81,7 @@
                 android:layout_marginStart="@dimen/dimen_12dp"
                 android:layout_marginTop="@dimen/dimen_30dp"
                 android:text="Terms and Conditions"
-                android:textColor="@color/grey_dark"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/dimen_22sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_content" />
@@ -89,11 +90,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dimen_12dp"
-                android:layout_marginTop="@dimen/dimen_30dp"
+                android:layout_marginTop="@dimen/dimen_12dp"
                 android:layout_marginEnd="@dimen/dimen_12dp"
+                android:layout_marginBottom="@dimen/dimen_30dp"
                 android:text="process is available
         for you to share. Be careful: this heap dump may contain any sensitive personal information
         that the process has access to, which may include things you\u2019ve typed."
+                android:textColor="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_title_two" />
@@ -108,7 +112,7 @@
         android:layout_marginTop="@dimen/dimen_10dp"
         android:layout_marginEnd="@dimen/dimen_20dp"
         android:layout_marginBottom="30dp"
-        android:background="@drawable/ic_bg_rectangle"
+        android:background="@drawable/ic_cta_bg"
         android:text="REDEEM"
         android:textColor="@android:color/white"
         android:textStyle="bold"

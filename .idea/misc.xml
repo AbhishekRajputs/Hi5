@@ -12,14 +12,18 @@
         <entry key="app/src/main/res/layout/activity_notification.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_otp.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_redemption.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_redemption_product.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_refer_friend.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_rewards.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_notification.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_redeem.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_refer_friend.xml" value="0.26666666666666666" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
