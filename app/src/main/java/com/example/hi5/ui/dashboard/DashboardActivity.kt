@@ -75,7 +75,7 @@ class DashboardActivity : BaseActivity() {
             addFragment(discoverFragment, getString(R.string.discover))
             addFragment(walletsFragment, getString(R.string.wallets))
         }
-        binding.viewPager.offscreenPageLimit = 2
+        binding.viewPager.offscreenPageLimit = 4
         binding.viewPager.adapter = pagerAdapter
     }
 }
