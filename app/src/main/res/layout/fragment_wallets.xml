@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F8"
     android:padding="10dp">
 
     <TextView
@@ -12,9 +11,9 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="10dp"
+        android:fontFamily="@font/montserrat_bold"
         android:text="Wallets"
         android:textColor="@color/text_color"
-        android:fontFamily="@font/montserrat_bold"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
@@ -48,10 +47,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
+            android:fontFamily="@font/montserrat_regular"
             android:text="Active Points Balance"
             android:textColor="@color/white"
             android:textSize="@dimen/dimen_12sp"
-            android:fontFamily="@font/montserrat_regular"
             app:layout_constraintStart_toEndOf="@+id/imgReferFriends"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,34 +59,42 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
+            android:fontFamily="@font/montserrat_semibold"
             android:text="24,420"
             android:textColor="@color/white"
             android:textSize="@dimen/dimen_20sp"
-            android:fontFamily="@font/montserrat_semibold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imgReferFriends"
             app:layout_constraintTop_toBottomOf="@+id/tvtext" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        style="@style/TabLayout"
+    <LinearLayout
+        android:id="@+id/tabLayo"
         android:layout_width="0dp"
-        android:layout_height="?actionBarSize"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="12dp"
         android:layout_marginTop="16dp"
+        android:padding="@dimen/dimen_4dp"
         android:background="@drawable/bg_tab"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layoutDetails"
-        app:tabBackground="@drawable/tab_selector"
-        app:tabIndicatorFullWidth="false"
-        app:tabIndicatorHeight="0dp"
-        app:tabMode="fixed"
-        app:tabSelectedTextColor="@color/white"
-        app:tabTextColor="#FF558E" />
+        app:layout_constraintTop_toBottomOf="@+id/layoutDetails">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            style="@style/TabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorHeight="0dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="#FF558E" />
+
+    </LinearLayout>
 
     <com.example.hi5.utils.UnScrollableViewPager
         android:id="@+id/viewPager"
@@ -98,8 +105,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
-
+        app:layout_constraintTop_toBottomOf="@+id/tabLayo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

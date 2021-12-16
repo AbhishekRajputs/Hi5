@@ -112,7 +112,8 @@
         android:textColor="#FF588D"
         android:textSize="@dimen/dimen_20sp"
         android:gravity="center"
-        android:background="@drawable/ic_rectangle_line"
+        android:paddingVertical="@dimen/dimen_20dp"
+        android:background="@drawable/dotted_circle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
