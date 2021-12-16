@@ -3,7 +3,7 @@ package com.example.hi5.ui.dashboard.fragments.home
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hi5.databinding.ItemHomeBannerBinding
+import com.example.hi5.databinding.ItemHomeBinding
 
 class HomeBannerAdapter(private val list: ArrayList<String>) :
 
@@ -11,7 +11,7 @@ class HomeBannerAdapter(private val list: ArrayList<String>) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BannerViewHolder {
         return BannerViewHolder(
-            ItemHomeBannerBinding.inflate(
+            ItemHomeBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent,
                 false
@@ -25,7 +25,7 @@ class HomeBannerAdapter(private val list: ArrayList<String>) :
 
     override fun getItemCount() = list.size
 
-    inner class BannerViewHolder(private var binding: ItemHomeBannerBinding) :
+    inner class BannerViewHolder(private var binding: ItemHomeBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bindItems(s: String) {
 

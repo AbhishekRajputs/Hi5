@@ -17,7 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/tvName"
         android:layout_width="0dp"
@@ -83,7 +82,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvBanner"
         android:layout_width="0dp"
@@ -93,8 +91,8 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:listitem="@layout/item_home_banner"
-        app:layout_constraintTop_toBottomOf="@+id/rvFilter" />
+        app:layout_constraintTop_toBottomOf="@+id/rvFilter"
+        tools:listitem="@layout/item_home" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvDeals"
