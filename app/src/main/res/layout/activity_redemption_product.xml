@@ -30,8 +30,8 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Offer Detail"
-                android:textColor="@color/grey_dark"
+                android:text="Redemption"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/dimen_20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@id/img_back"
@@ -55,7 +55,7 @@
                 android:layout_marginStart="@dimen/dimen_20dp"
                 android:layout_marginEnd="@dimen/dimen_40dp"
                 android:text="Product Name with Long Character"
-                android:textColor="@color/grey_dark"
+                android:textColor="@android:color/black"
                 app:layout_constraintBottom_toBottomOf="@id/img_first"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/img_first"
@@ -68,7 +68,7 @@
                 android:layout_marginStart="@dimen/dimen_12dp"
                 android:layout_marginTop="@dimen/dimen_30dp"
                 android:text="Description"
-                android:textColor="@color/grey_dark"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/dimen_22sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/img_first" />
@@ -83,6 +83,7 @@
                 android:text="process is available
         for you to share. Be careful: this heap dump may contain any sensitive personal information
         that the process has access to, which may include things you\u2019ve typed."
+                android:textColor="@android:color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_title" />
@@ -108,12 +109,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/img_one" />
 
-
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/img_first_p"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/dimen_30dp"
+                android:layout_marginStart="@dimen/dimen_10dp"
                 android:layout_marginTop="@dimen/dimen_30dp"
                 android:background="@drawable/ic_new_scan"
                 app:layout_constraintStart_toStartOf="parent"
@@ -126,7 +126,7 @@
                 android:layout_marginStart="@dimen/dimen_20dp"
                 android:layout_marginEnd="@dimen/dimen_40dp"
                 android:text="Name of the deal"
-                android:textColor="@color/grey_dark"
+                android:textColor="@android:color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/img_first_p"
                 app:layout_constraintTop_toTopOf="@id/img_first_p" />
@@ -162,6 +162,7 @@
         that the process has access to, which may include things you\u2019ve typed.process is available
         for you to share. Be careful: this heap dump may contain any sensitive personal information
         that the process has access to, which may include things you\u2019ve typed."
+                android:textColor="@android:color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
