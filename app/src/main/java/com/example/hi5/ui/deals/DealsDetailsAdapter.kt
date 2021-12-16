@@ -23,6 +23,7 @@ class DealsDetailsAdapter(private val list: ArrayList<String>) :
     inner class DealsDetailsViewHolder(private var binding: ItemDealsDetailsBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bindItems(s: String) {
+            binding.imgDeal
         }
     }
 }

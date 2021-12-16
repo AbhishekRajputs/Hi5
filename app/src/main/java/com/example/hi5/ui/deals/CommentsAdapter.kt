@@ -23,6 +23,7 @@ class CommentsAdapter (private val list: ArrayList<String>) :
     inner class CommentsViewHolder(private var binding: ItemCommentBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bindItems(s: String) {
+            binding.imgUser
         }
     }
 }
