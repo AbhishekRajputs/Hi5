@@ -15,6 +15,9 @@ class RedemptionProductActivity : BaseActivity() {
         setContentView(binding.root)
 
         binding.imgBack.setOnClickListener { onBackPressed() }
-        binding.btnSave.setOnClickListener { openActivity(RedeemActivity::class.java) }
+        binding.btnSave.setOnClickListener {
+            openActivity(RedeemActivity::class.java)
+            finish()
+        }
     }
 }
