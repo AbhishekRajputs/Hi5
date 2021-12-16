@@ -31,7 +31,7 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat_semibold"
+        android:fontFamily="@font/montserrat_bold"
         android:text="INVITE"
         android:textColor="@color/red"
         android:textSize="@dimen/dimen_12sp"
