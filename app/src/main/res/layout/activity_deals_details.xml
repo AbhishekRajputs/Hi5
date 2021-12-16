@@ -147,7 +147,18 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 
+    <ImageView
+        android:id="@+id/imgWhatsapp"
+        android:src="@drawable/ic_whatsapp"
+        app:layout_constraintBottom_toTopOf="@+id/layoutBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/dimen_24dp"
+        android:layout_marginEnd="@dimen/dimen_8dp"
+        android:layout_width="@dimen/dimen_42dp"
+        android:layout_height="@dimen/dimen_42dp"/>
+
     <LinearLayout
+        android:id="@+id/layoutBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
