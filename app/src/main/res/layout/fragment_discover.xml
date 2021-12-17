@@ -45,7 +45,7 @@
             android:textColor="@color/black"
             android:text="Discover New Deal"
             android:textSize="@dimen/dimen_18sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_regular"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_title" />
@@ -75,10 +75,9 @@
             android:gravity="start|center"
             android:padding="@dimen/dimen_16dp"
             android:textColor="@color/black"
-            android:fontFamily="@font/montserrat_semibold"
+            android:fontFamily="@font/montserrat_regular"
             android:text="Discover History"
             android:textSize="@dimen/dimen_18sp"
-            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_discover_new_deal" />
