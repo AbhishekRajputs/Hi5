@@ -3,11 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/dimen_10dp"
     android:paddingBottom="@dimen/dimen_10dp">
 
     <ImageView
         android:id="@+id/imgDeal"
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="150dp"
         android:src="@drawable/ic_frame"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,14 +19,11 @@
         android:id="@+id/tvProductName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dimen_10dp"
         android:layout_marginTop="@dimen/dimen_6dp"
-        android:layout_marginEnd="@dimen/dimen_10dp"
         android:fontFamily="@font/montserrat_semibold"
-        android:gravity="center"
         android:text="Product Name With Long Characters"
         android:textColor="@color/text_color"
-        android:textSize="@dimen/dimen_16sp"
+        android:textSize="@dimen/dimen_14sp"
         app:layout_constraintEnd_toEndOf="@+id/imgDeal"
         app:layout_constraintStart_toStartOf="@+id/imgDeal"
         app:layout_constraintTop_toBottomOf="@+id/imgDeal" />
