@@ -37,9 +37,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/card_back"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintStart_toEndOf="@id/card_back"
         app:layout_constraintTop_toTopOf="@+id/card_back" />
-
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview"
