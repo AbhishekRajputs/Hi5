@@ -9,23 +9,45 @@
         <entry key="app/src/main/res/drawable/ic_advertisement.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_advertisement1.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_rectangle_8.xml" value="0.2828125" />
+        <entry key="app/src/main/res/layout/activity_base.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_change_password.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_deals_details.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_discover_history.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_discover_new_deal.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_edit_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_favourite.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_notification.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_offer_detail.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_otp.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_points.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_redeem.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_redeem_history.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_redeem_points.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_redemption.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_redemption_product.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_refer_friend.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_scanner.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/bottom_sheet.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/fragment_discover.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_earn.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_offers.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_redeem_points.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/fragment_rewards.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_unused_coupon.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_used_coupon.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_wallets.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_comment.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_coupon.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_deals_details.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_discover_history.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_home.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_home_banner.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_home_deals.xml" value="0.26666666666666666" />

@@ -6,28 +6,39 @@
     android:background="#F5F5F8"
     android:padding="10dp">
 
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/img_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ic_back"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_back"
+        android:layout_width="@dimen/dimen_60dp"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_marginStart="@dimen/dimen_12dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:elevation="@dimen/dimen_12dp"
+        app:cardCornerRadius="@dimen/dimen_12dp"
+        app:cardUseCompatPadding="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/dimen_8dp"
+            android:src="@drawable/ic_back" />
+    </androidx.cardview.widget.CardView>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
         android:text="Discover History"
         android:textColor="@color/text_color"
-        android:fontFamily="@font/montserrat_bold"
         android:textSize="@dimen/dimen_24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/img_back"
+        app:layout_constraintBottom_toBottomOf="@id/card_back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/img_back" />
+        app:layout_constraintTop_toTopOf="@+id/card_back" />
 
 
     <androidx.cardview.widget.CardView
@@ -50,8 +61,8 @@
                 android:id="@+id/imgApprovedIcon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_used_coupon"
                 android:layout_marginStart="@dimen/dimen_2dp"
+                android:src="@drawable/ic_used_coupon"
                 app:layout_constraintStart_toStartOf="@+id/tvTextApprovedCoupon"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -59,10 +70,10 @@
                 android:id="@+id/tvTextApprovedCoupon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
                 android:paddingHorizontal="@dimen/dimen_8dp"
                 android:paddingVertical="@dimen/dimen_4dp"
                 android:text="Approved"
-                android:fontFamily="@font/montserrat_regular"
                 android:textSize="@dimen/dimen_14sp"
                 app:layout_constraintEnd_toStartOf="@+id/divider"
                 app:layout_constraintStart_toStartOf="parent"
@@ -72,10 +83,10 @@
                 android:id="@+id/tvApprovedCoupon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
                 android:paddingHorizontal="@dimen/dimen_8dp"
                 android:text="5"
                 android:textColor="@color/text_color"
-                android:fontFamily="@font/montserrat_semibold"
                 android:textSize="@dimen/dimen_24sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/tvTextApprovedCoupon"
@@ -95,8 +106,8 @@
                 android:id="@+id/imgUnapprovedIcon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_unapproved_icon"
                 android:layout_marginStart="@dimen/dimen_2dp"
+                android:src="@drawable/ic_unapproved_icon"
                 app:layout_constraintStart_toStartOf="@+id/tvTextUnapproved"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -104,11 +115,11 @@
                 android:id="@+id/tvTextUnapproved"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
                 android:paddingHorizontal="@dimen/dimen_8dp"
                 android:paddingVertical="@dimen/dimen_4dp"
                 android:text="Unapproved"
                 android:textSize="@dimen/dimen_14sp"
-                android:fontFamily="@font/montserrat_regular"
                 app:layout_constraintEnd_toStartOf="@+id/divider1"
                 app:layout_constraintStart_toEndOf="@+id/divider"
                 app:layout_constraintTop_toBottomOf="@+id/imgUnapprovedIcon" />
@@ -117,10 +128,10 @@
                 android:id="@+id/tvUnApprovedCoupon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
                 android:paddingHorizontal="@dimen/dimen_8dp"
                 android:text="5"
                 android:textColor="@color/text_color"
-                android:fontFamily="@font/montserrat_semibold"
                 android:textSize="@dimen/dimen_24sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/tvTextUnapproved"
@@ -141,8 +152,8 @@
                 android:id="@+id/imgProcessing"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_unused_coupon"
                 android:layout_marginStart="@dimen/dimen_2dp"
+                android:src="@drawable/ic_unused_coupon"
                 app:layout_constraintStart_toStartOf="@+id/tvTextProcessing"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -151,11 +162,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/dimen_8dp"
+                android:fontFamily="@font/montserrat_regular"
                 android:paddingHorizontal="@dimen/dimen_8dp"
                 android:paddingVertical="@dimen/dimen_4dp"
                 android:text="Processing"
                 android:textSize="@dimen/dimen_14sp"
-                android:fontFamily="@font/montserrat_regular"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/divider1"
                 app:layout_constraintTop_toBottomOf="@+id/imgProcessing" />
@@ -164,10 +175,10 @@
                 android:id="@+id/tvUnUsedCoupon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
                 android:paddingHorizontal="@dimen/dimen_8dp"
                 android:text="5"
                 android:textColor="@color/text_color"
-                android:fontFamily="@font/montserrat_semibold"
                 android:textSize="@dimen/dimen_24sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/tvTextProcessing"
@@ -176,7 +187,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
-
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvDiscoverHistory"

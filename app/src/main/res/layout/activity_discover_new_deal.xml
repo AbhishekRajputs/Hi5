@@ -11,6 +11,7 @@
         android:layout_marginStart="@dimen/dimen_20dp"
         android:layout_marginTop="@dimen/dimen_20dp"
         android:elevation="@dimen/dimen_12dp"
+        app:cardCornerRadius="@dimen/dimen_12dp"
         app:cardUseCompatPadding="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
