@@ -6,15 +6,25 @@
     android:background="#F5F5F8"
     tools:context=".ui.deals.DealsDetailsActivity">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/img_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dimen_10dp"
-        android:background="@drawable/ic_back"
-        android:elevation="@dimen/dimen_6dp"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_back"
+        android:layout_width="@dimen/dimen_60dp"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_marginStart="@dimen/dimen_12dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:elevation="@dimen/dimen_12dp"
+        app:cardCornerRadius="@dimen/dimen_12dp"
+        app:cardUseCompatPadding="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/dimen_8dp"
+            android:src="@drawable/ic_back" />
+    </androidx.cardview.widget.CardView>
 
     <ImageView
         android:id="@+id/imgDeal"

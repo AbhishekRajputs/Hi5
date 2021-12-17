@@ -3,29 +3,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/light"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/light">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/img_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_back"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_back"
+        android:layout_width="@dimen/dimen_60dp"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_marginStart="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:elevation="@dimen/dimen_12dp"
+        app:cardCornerRadius="@dimen/dimen_12dp"
+        app:cardUseCompatPadding="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/dimen_8dp"
+            android:src="@drawable/ic_back" />
+    </androidx.cardview.widget.CardView>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
         android:text="Refer &amp; Earn"
         android:textColor="@color/grey_dark"
         android:textSize="@dimen/dimen_24sp"
         android:textStyle="bold"
-        android:fontFamily="@font/montserrat_bold"
-        app:layout_constraintBottom_toBottomOf="@id/img_back"
+        app:layout_constraintBottom_toBottomOf="@id/card_back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/img_back" />
+        app:layout_constraintTop_toTopOf="@id/card_back" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
@@ -37,6 +49,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/img_back"
+        app:layout_constraintTop_toBottomOf="@id/card_back"
         tools:listitem="@layout/item_refer_friend" />
 </androidx.constraintlayout.widget.ConstraintLayout>
