@@ -16,5 +16,6 @@ class SignUpActivity : BaseActivity() {
         setContentView(binding.root)
 
         binding.btnSignUp.setOnClickListener { openActivity(LoginActivity::class.java) }
+        binding.imgBack.setOnClickListener { finish() }
     }
 }

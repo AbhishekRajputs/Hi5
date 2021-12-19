@@ -54,6 +54,8 @@
         android:layout_marginTop="@dimen/dimen_16dp"
         android:layout_marginEnd="30dp"
         android:gravity="center"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="#3F414E"
         android:text="Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor"
         android:textSize="@dimen/dimen_16sp"
         app:layout_constraintBottom_toBottomOf="parent"
