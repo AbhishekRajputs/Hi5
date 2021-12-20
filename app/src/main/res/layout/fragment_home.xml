@@ -29,6 +29,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:fontFamily="@font/montserrat_bold"
         app:layout_constraintBottom_toTopOf="@+id/txt"
         app:layout_constraintEnd_toStartOf="@+id/imgScanner"
         app:layout_constraintStart_toEndOf="@+id/imgProfile"

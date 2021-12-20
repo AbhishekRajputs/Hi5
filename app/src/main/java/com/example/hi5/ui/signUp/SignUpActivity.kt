@@ -17,5 +17,6 @@ class SignUpActivity : BaseActivity() {
 
         binding.imgBack.setOnClickListener { onBackPressed() }
         binding.btnSignUp.setOnClickListener { openActivity(LoginActivity::class.java) }
+        binding.imgBack.setOnClickListener { finish() }
     }
 }

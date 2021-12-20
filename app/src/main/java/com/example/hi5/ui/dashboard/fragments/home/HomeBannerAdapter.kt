@@ -1,9 +1,11 @@
 package com.example.hi5.ui.dashboard.fragments.home
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hi5.databinding.ItemHomeBinding
+import com.example.hi5.ui.deals.DealsDetailsActivity
 
 class HomeBannerAdapter(private val list: ArrayList<String>) :
 
@@ -28,7 +30,9 @@ class HomeBannerAdapter(private val list: ArrayList<String>) :
     inner class BannerViewHolder(private var binding: ItemHomeBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bindItems(s: String) {
-
+            binding.imgBanner.setOnClickListener { binding.imgBanner.context.startActivity(
+                Intent(binding.imgBanner.context, DealsDetailsActivity::class.java)
+            ) }
         }
     }
 }

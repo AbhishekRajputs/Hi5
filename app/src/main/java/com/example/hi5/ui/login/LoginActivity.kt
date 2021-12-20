@@ -15,6 +15,7 @@ class LoginActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+
         binding.imgBack.setOnClickListener { onBackPressed() }
         binding.btnLogin.setOnClickListener { openActivity(OtpActivity::class.java) }
         binding.tvSignUp.setOnClickListener { openActivity(SignUpActivity::class.java) }

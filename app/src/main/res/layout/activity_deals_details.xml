@@ -171,7 +171,7 @@
     <LinearLayout
         android:id="@+id/layoutBottom"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?actionBarSize"
         android:background="@color/white"
         android:orientation="horizontal"
         android:paddingBottom="@dimen/dimen_10dp"
@@ -205,5 +205,19 @@
             android:paddingTop="@dimen/dimen_4dp"
             android:src="@drawable/ic_send" />
     </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/animation_view"
+        android:layout_weight="0.09"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="@dimen/dimen_4dp"
+        app:lottie_rawRes="@raw/flipp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
