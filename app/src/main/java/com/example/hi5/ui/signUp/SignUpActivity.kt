@@ -15,6 +15,7 @@ class SignUpActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        binding.imgBack.setOnClickListener { onBackPressed() }
         binding.btnSignUp.setOnClickListener { openActivity(LoginActivity::class.java) }
     }
 }

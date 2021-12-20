@@ -8,7 +8,10 @@
         <entry key="app/src/main/res/drawable/edt_dot_bg.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_advertisement.xml" value="0.2828125" />
         <entry key="app/src/main/res/drawable/ic_advertisement1.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_on_boarding.xml" value="0.2784615384615385" />
         <entry key="app/src/main/res/drawable/ic_rectangle_8.xml" value="0.2828125" />
+        <entry key="app/src/main/res/drawable/ic_welcome.xml" value="0.2784615384615385" />
+        <entry key="app/src/main/res/drawable/ic_whatsapp_1.xml" value="0.2784615384615385" />
         <entry key="app/src/main/res/layout/activity_base.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_change_password.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/activity_deals_details.xml" value="0.26666666666666666" />
@@ -52,6 +55,7 @@
         <entry key="app/src/main/res/layout/item_home_banner.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_home_deals.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_notification.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/item_on_boarding.xml" value="0.25555555555555554" />
         <entry key="app/src/main/res/layout/item_profile.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_redeem.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/item_refer_friend.xml" value="0.26666666666666666" />

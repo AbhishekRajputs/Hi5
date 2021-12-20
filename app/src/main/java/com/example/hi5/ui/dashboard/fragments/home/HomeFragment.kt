@@ -29,7 +29,10 @@ class HomeFragment : Fragment() {
     }
 
     private val filterAdapter by lazy {
-        FilterAdapter(arrayListOf("All", "Live Super Deals", "LifeStyle", "Gifts"), "All")
+        FilterAdapter(
+            arrayListOf("All", "Live Super Deal", "Recommend", "LifeStyle", "Gifts"),
+            "All"
+        )
     }
 
     override fun onCreateView(
